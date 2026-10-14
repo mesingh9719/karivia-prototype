@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ord_demo_001",
+    "number": "KRV-260908-1001",
+    "customerId": "usr_001",
+    "customer": {
+      "name": "Aarav Mehta",
+      "email": "customer@karivia.demo",
+      "phone": "9876543210",
+      "address": "24 Garden Lane, Greater Kailash",
+      "city": "New Delhi",
+      "postalCode": "110048",
+      "country": "India"
+    },
+    "items": [
+      {
+        "productId": "prod_001",
+        "name": "Dew Drop Hydrating Serum",
+        "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&q=85",
+        "unitPrice": 890,
+        "quantity": 1
+      },
+      {
+        "productId": "prod_004",
+        "name": "Rose & Oat Body Lotion",
+        "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=85",
+        "unitPrice": 720,
+        "quantity": 1
+      }
+    ],
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "shipping": 0,
+    "notes": "Please ring the doorbell.",
+    "adminNotes": "Delivered to customer.",
+    "trackingNumber": "DEMO-KRV-1001",
+    "stockRestored": false,
+    "history": [
+      { "status": "pending", "at": "2026-09-08T09:00:00Z" },
+      { "status": "confirmed", "at": "2026-09-08T10:00:00Z" },
+      { "status": "processing", "at": "2026-09-09T09:00:00Z" },
+      { "status": "shipped", "at": "2026-09-10T09:00:00Z" },
+      { "status": "delivered", "at": "2026-09-12T09:00:00Z" }
+    ],
+    "createdAt": "2026-09-08T09:00:00Z",
+    "updatedAt": "2026-09-12T09:00:00Z"
+  },
+  {
+    "id": "ord_demo_002",
+    "number": "KRV-261011-1002",
+    "customerId": "usr_001",
+    "customer": {
+      "name": "Aarav Mehta",
+      "email": "customer@karivia.demo",
+      "phone": "9876543210",
+      "address": "24 Garden Lane, Greater Kailash",
+      "city": "New Delhi",
+      "postalCode": "110048",
+      "country": "India"
+    },
+    "items": [
+      {
+        "productId": "prod_003",
+        "name": "Silk Finish Hair Oil",
+        "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=85",
+        "unitPrice": 790,
+        "quantity": 2
+      }
+    ],
+    "status": "shipped",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "shipping": 0,
+    "notes": "",
+    "adminNotes": "",
+    "trackingNumber": "DEMO-KRV-1002",
+    "stockRestored": false,
+    "history": [
+      { "status": "pending", "at": "2026-10-11T09:00:00Z" },
+      { "status": "confirmed", "at": "2026-10-11T11:00:00Z" },
+      { "status": "processing", "at": "2026-10-12T09:00:00Z" },
+      { "status": "shipped", "at": "2026-10-13T09:00:00Z" }
+    ],
+    "createdAt": "2026-10-11T09:00:00Z",
+    "updatedAt": "2026-10-13T09:00:00Z"
+  },
+  {
+    "id": "ord_demo_003",
+    "number": "KRV-261014-1003",
+    "customerId": "usr_002",
+    "customer": {
+      "name": "Priya Kapoor",
+      "email": "salon@karivia.demo",
+      "phone": "9876543211",
+      "address": "18 Market Road, Defence Colony",
+      "city": "New Delhi",
+      "postalCode": "110024",
+      "country": "India"
+    },
+    "items": [
+      {
+        "productId": "prod_006",
+        "name": "The Weekend Ritual Set",
+        "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=85",
+        "unitPrice": 1890,
+        "quantity": 1
+      }
+    ],
+    "status": "pending",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "shipping": 0,
+    "notes": "This is a gift.",
+    "adminNotes": "",
+    "trackingNumber": "",
+    "stockRestored": false,
+    "history": [{ "status": "pending", "at": "2026-10-14T09:00:00Z" }],
+    "createdAt": "2026-10-14T09:00:00Z",
+    "updatedAt": "2026-10-14T09:00:00Z"
+  }
+]

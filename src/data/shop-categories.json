@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cat_skin",
+    "name": "Skin rituals",
+    "description": "Daily essentials for hydrated, happy skin.",
+    "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800&q=85",
+    "status": "active",
+    "createdAt": "2026-10-01T09:00:00Z"
+  },
+  {
+    "id": "cat_hair",
+    "name": "Hair care",
+    "description": "Salon-inspired care for your everyday routine.",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=85",
+    "status": "active",
+    "createdAt": "2026-10-01T09:00:00Z"
+  },
+  {
+    "id": "cat_body",
+    "name": "Bath & body",
+    "description": "Slow down with comforting body care.",
+    "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=85",
+    "status": "active",
+    "createdAt": "2026-10-01T09:00:00Z"
+  },
+  {
+    "id": "cat_tools",
+    "name": "Beauty tools",
+    "description": "Thoughtful little tools that elevate your rituals.",
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=85",
+    "status": "active",
+    "createdAt": "2026-10-01T09:00:00Z"
+  },
+  {
+    "id": "cat_gifts",
+    "name": "Gift sets",
+    "description": "A little self-care, beautifully wrapped.",
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=85",
+    "status": "active",
+    "createdAt": "2026-10-01T09:00:00Z"
+  },
+  {
+    "id": "cat_seasonal",
+    "name": "Seasonal collection",
+    "description": "Limited editions coming soon.",
+    "image": "",
+    "status": "inactive",
+    "createdAt": "2026-10-01T09:00:00Z"
+  }
+]

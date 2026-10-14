@@ -34,7 +34,9 @@ Select Customer, Salon, Freelancer, Admin, or Staff on `/login` (seeded emails s
 
 ## Routes
 
-Public: `/`, `/explore`, `/providers/:id`, `/book/:providerId/:serviceId`, `/how-it-works`, `/for-business`.
+Public: `/`, `/explore`, `/shop`, `/cart`, `/checkout`, `/orders`, `/orders/:id`, `/providers/:id`, `/book/:providerId/:serviceId`, `/how-it-works`, `/for-business`.
+
+Shop management: `/app/admin/shop`, `/app/admin/shop-categories`, and `/app/admin/shop-orders`. The Shop and Orders modules use a persistent local JSON prototype repository and stay local even when other modules use APIs. See [Shop documentation](docs/shop.md) for schemas, workflow rules, image limits, manual walkthroughs, and future API adapter contracts.
 
 Auth: `/login`, `/register`, `/forgot-password`, `/reset-password`, `/verify-otp`, `/verify-documents`.
 
